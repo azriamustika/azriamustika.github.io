@@ -1,0 +1,110 @@
+/* Reset beberapa margin dan padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Pengaturan gaya dasar untuk body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+/* Bagian section untuk menu makanan */
+section {
+  margin: 20px 0;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+section ul {
+  list-style: none;
+}
+
+section ul li {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section ul li h3 {
+  font-size: 1.5em;
+  color: #444;
+}
+
+section ul li p {
+  color: #666;
+}
+
+section ul li span {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  margin-top: 30px;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  nav ul {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section ul li {
+    padding: 10px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+}
